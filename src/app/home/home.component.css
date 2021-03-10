@@ -1,0 +1,30 @@
+/*.main-header{
+    text-align: center;
+    color: WHITE;
+    background-color:#C0C0C0;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 0px 0px 0px 0px !important;
+}*/
+
+.main{
+    background-color: #606060;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 5px;
+}
+
+h2{
+    margin-left: 5%;
+    text-align:left !important;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+li{
+    margin-left: 12%;
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
