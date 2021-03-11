@@ -1,5 +1,17 @@
 <div class="main">
-    <h2>Send me a Message with any Questions or Comments</h2>
-    <br>
-    
+    <h2>Send me a Message with any Questions or Comments!</h2>
+    <br><br>
+    <p>Name:</p>
+    <input matInput autocomplete="off" [(ngModel)]="name" type="text"/>
+    <br><br><br><br>
+    <p>Subject:</p>
+    <input matInput autocomplete="off" [(ngModel)]="subject" type="text"/>
+    <br><br><br><br>
+    <p>Email:</p>
+    <input matInput autocomplete="off" [(ngModel)]="email" type="text"/>
+    <br><br><br><br>
+    <p>Message</p>
+    <textarea autocomplete="off" [(ngModel)]="message" type="text"></textarea>
+    <br><br><br><br>
+    <button mat-stroked-button style="background-color: #333;" type="button" (click)="sendEmail()">Send</button>
 </div>
