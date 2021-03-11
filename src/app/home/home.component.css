@@ -18,13 +18,11 @@
 }
 
 h2{
-    margin-left: 5%;
-    text-align:left !important;
+    text-align:center !important;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 li{
-    margin-left: 12%;
-    text-align: left;
+    text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
